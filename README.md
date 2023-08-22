@@ -14,7 +14,9 @@ Also make sure to include Simscape Electricals toolbox while installing Matlab s
 ___
 
 Vo = (D*Vin)/(1-D);
+
 where Vo=Output voltage, D=duty cycle, Vin=Input Voltage.
+
 In a buck boost conveter we can change the ouput voltage by varying the duty cycle of the converter.
 This concept is employed in the PID controller design of the buck boost converter.
 Here in this project I have assumed the reference voltage to be -13v.
